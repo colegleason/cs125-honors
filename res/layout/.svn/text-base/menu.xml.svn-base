@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_weight="0.02"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <Button
+        android:id="@+id/OPEN_FILE_BUTTON"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/open_file" >
+    </Button>
+
+    <Button
+        android:id="@+id/STOP_AUDIO_BUTTON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dip"
+        android:layout_weight="0.02"
+        android:text="@string/stop" >
+    </Button>
+
+    <ProgressBar
+        android:id="@+id/treble"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="5dip" />
+
+    <ProgressBar
+        android:id="@+id/mid"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="5dip" />
+
+    <ProgressBar
+        android:id="@+id/bass"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="260dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="5dip" />
+    
+    
+    <RadioGroup
+        android:id="@+id/powerSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02" >
+        <RadioButton
+        		android:id="@+id/radioTreble"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_weight="0.02"
+        		android:checked="true"
+        		android:text="@string/treble_button" />
+        <RadioButton
+       	 	android:id="@+id/radioMid"
+       	 	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_weight="0.02"
+        		android:text="@string/mid_button" />
+        <RadioButton
+            android:id="@+id/radioBass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bass_button" />
+    </RadioGroup>
+</LinearLayout>

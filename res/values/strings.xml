@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteNinjas</string>
+    <string name="hello">Hello</string>
+    <string name="welcome">Welcome to NoteNinjas (codename)!  Please select a .WAV file below.</string>
+    <string name="open_file">Open File...</string>
+    <string name="stop">Stop</string>
+    <string name="treble_button">Treble</string>
+    <string name="mid_button">Mid</string>
+    <string name="bass_button">Bass</string>
+</resources>

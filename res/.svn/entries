@@ -1,0 +1,46 @@
+10
+
+dir
+197
+https://subversion.ews.illinois.edu/svn/fa11-cs125-projects/NoteNinjas/res
+https://subversion.ews.illinois.edu/svn/fa11-cs125-projects
+
+
+
+2011-11-28T06:06:17.940781Z
+184
+cagleas2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a2b0d96b-255c-45c9-b1e6-b455d047dc09
+
+drawable-hdpi
+dir
+
+drawable-ldpi
+dir
+
+drawable-mdpi
+dir
+
+layout
+dir
+
+raw
+dir
+
+values
+dir
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="cs125.noteninjas"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true" >
+        <activity android:label="@string/app_name" android:name="NoteNinjasActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lamerman.FileDialog"></activity>
+        <service android:name="org.puredata.android.service.PdService"></service>
+        <activity android:name="AndroidActivity"></activity>
+
+    </application>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>
